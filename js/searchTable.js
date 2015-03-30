@@ -26,6 +26,13 @@ var cols = [{
 		},
 		class: 'text'
 	}, {
+		name: 'Package unit',
+		order: 'package_unit_volume_in_milliliters',
+		content: function(props) {
+			return props.package_unit_volume_in_milliliters;
+		},
+		class: 'numeric'
+	}, {
 		name: 'Origin',
 		order: null,
 		content: function(props) {
